@@ -1,4 +1,4 @@
-# Bootstrap Nuclueus
+# Bootstrap Nucleus
 Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff. The core components include the following:
 - CSS Reboot
 - Bootstrap Grid
