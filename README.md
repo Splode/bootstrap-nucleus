@@ -1,6 +1,9 @@
-<section style="text-align: center; width: 100%; height: 150px;">
-  <img src="https://splode.github.io/store/bootstrap-nucleus.png">
-  <h1>Bootstrap Nucleus</h1>
+<p align="center">
+  <a href="https://github.com/splode/bootstrap-nucleus">
+    <img src="https://splode.github.io/store/bootstrap-nucleus.png" width=100px height=100px>
+  </a>
+<p>
+  <h1 align="center">Bootstrap Nucleus</h1>
 </section>
 
 <!-- # Bootstrap Nucleus -->
