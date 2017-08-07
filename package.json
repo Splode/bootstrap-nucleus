@@ -4,21 +4,28 @@
   "description": "Bootstrap v4 Nucleus - the best parts of Bootstrap.",
   "main": "index.js",
   "scripts": {
-    "build": "node-sass --output-style expanded --precision 6 scss/nucleus.scss dist/bootstrap-nucleus.css",
-    "build-min": "node-sass --output-style compressed --precision 6 scss/nucleus.scss dist/bootstrap-nucleus.min.css",
+    "build": "npm-run-all grid reboot utils nucleus nucleus:min",
+    "nucleus": "node-sass --output-style expanded --precision 6 scss/nucleus.scss dist/bootstrap-nucleus.css",
+    "nucleus:min": "node-sass --output-style compressed --precision 6 scss/nucleus.scss dist/bootstrap-nucleus.min.css",
     "grid": "node-sass --output-style expanded --precision 6 scss/grid.scss css/grid.css",
     "reboot": "node-sass --output-style expanded --precision 6 scss/reboot.scss css/reboot.css",
     "utils": "node-sass --output-style expanded --precision 6 scss/utils.scss css/utils.css"
   },
   "keywords": [
     "Bootstrap",
-    "CSS"
+    "CSS",
+    "framework"
   ],
   "author": "Bootstrap, Christopher Murphy <trainstationblues@gmail.com> (http://christopherianmurphy.com)",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Splode/bootstrap-nucleus.git"
+  },
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
-    "node-sass": "^4.5.3"
+    "node-sass": "^4.5.3",
+    "npm-run-all": "^4.0.2"
   },
   "dependencies": {}
 }
