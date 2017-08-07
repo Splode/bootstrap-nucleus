@@ -7,13 +7,6 @@
 <h1 align="center">Bootstrap Nucleus</h1>
 <p align="center">Bootstrap Nucleus - the essential core of Bootstrap v4.</p>
 
-Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff.
-
-Core includes:
-- CSS Reboot
-- Bootstrap Grid
-- Bootstrap Utilities
-
 ## Installation
 ### npm
 ````bash
@@ -23,6 +16,14 @@ npm install bootstrap-nucleus --save
 See [https://github.com/Splode/bootstrap-nucleus/blob/master/dist/bootstrap-nucleus.min.css](https://github.com/Splode/bootstrap-nucleus/blob/master/dist/bootstrap-nucleus.min.css)
 
 ## Usage
+
+Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff.
+
+Core includes:
+- CSS Reboot
+- Bootstrap Grid
+- Bootstrap Utilities
+
 Use Bootstrap Nucleus the same way that you would use Bootstrap v4.
 ````html
 <main class="container">
