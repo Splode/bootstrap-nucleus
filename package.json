@@ -14,7 +14,7 @@
     "Bootstrap",
     "CSS"
   ],
-  "author": "Bootstrap, Christopher Murphy",
+  "author": "Bootstrap, Christopher Murphy <trainstationblues@gmail.com> (http://christopherianmurphy.com)",
   "license": "ISC",
   "devDependencies": {
     "bootstrap": "^4.0.0-alpha.6",
