@@ -4,9 +4,11 @@
   "description": "Bootstrap v4 Nucleus - the best parts of Bootstrap.",
   "main": "index.js",
   "scripts": {
-    "grid": "node-sass scss/grid.scss css/grid.css",
-    "reboot": "node-sass scss/reboot.scss css/reboot.css",
-    "utils": "node-sass scss/utils.scss css/utils.css"
+    "build": "node-sass --output-style expanded --precision 6 scss/nucleus.scss dist/bootstrap-nucleus.css",
+    "build-min": "node-sass --output-style compressed --precision 6 scss/nucleus.scss dist/bootstrap-nucleus.min.css",
+    "grid": "node-sass --output-style expanded --precision 6 scss/grid.scss css/grid.css",
+    "reboot": "node-sass --output-style expanded --precision 6 scss/reboot.scss css/reboot.css",
+    "utils": "node-sass --output-style expanded --precision 6 scss/utils.scss css/utils.css"
   },
   "keywords": [
     "Bootstrap",
