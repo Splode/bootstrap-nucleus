@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-nucleus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap v4 Nucleus - the best parts of Bootstrap.",
   "main": "index.js",
   "scripts": {
