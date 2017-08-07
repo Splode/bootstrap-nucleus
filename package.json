@@ -1,10 +1,12 @@
 {
   "name": "bootstrap-nucleus",
   "version": "1.0.0",
-  "description": "Bootstrap v4 Core - the best parts of Bootstrap.",
+  "description": "Bootstrap v4 Nucleus - the best parts of Bootstrap.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "grid": "node-sass scss/grid.scss css/grid.css",
+    "reboot": "node-sass scss/reboot.scss css/reboot.css",
+    "utils": "node-sass scss/utils.scss css/utils.css"
   },
   "keywords": [
     "Bootstrap",
@@ -13,6 +15,8 @@
   "author": "Bootstrap, Christopher Murphy",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^3.4.1"
-  }
+    "bootstrap": "^4.0.0-alpha.6",
+    "node-sass": "^4.5.3"
+  },
+  "dependencies": {}
 }
