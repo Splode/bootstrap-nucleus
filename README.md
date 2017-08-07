@@ -1,5 +1,7 @@
 # Bootstrap Nucleus
-Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff. The core components include the following:
+> Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff. 
+
+Core includes:
 - CSS Reboot
 - Bootstrap Grid
 - Bootstrap Utilities
@@ -9,11 +11,8 @@ Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff.
 ````bash
 npm install bootstrap-nucleus --save
 ````
-### Direct
-Download and unzip this repo. Copy the files from the `dist` directory and link to the boostrap-nucleus stylesheet of your choice.
-````HTML
-<link rel="stylsheet" href="bootstrap-nucleus.min.css">
-````
+### Download
+See [https://github.com/Splode/bootstrap-nucleus/blob/master/dist/bootstrap-nucleus.min.css](https://github.com/Splode/bootstrap-nucleus/blob/master/dist/bootstrap-nucleus.min.css)
 
 ## Usage
 Use Bootstrap Nucleus the same way that you would use Bootstrap v4.
@@ -35,3 +34,6 @@ Bootstrap Nucleus uses node-sass to build project assets.
 ````bash
 npm run build
 ````
+
+## Why Nucleus?
+The Bootstrap framework is an excellent tool for prototyping. In production, however, I find myself overwriting the majority of the Bootstrap component styles and retaining only the core framework components, such as the grid. Instead of including the entire Bootstrap framework for projects, Bootstrap Nucleus allows a project to retain the essential Bootstrap components while shedding the fluff.

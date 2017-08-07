@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-nucleus",
   "version": "1.0.1",
-  "description": "Bootstrap v4 Nucleus - the best parts of Bootstrap.",
+  "description": "Bootstrap Nucleus - the essential core of Bootstrap v4.",
   "main": "index.js",
   "scripts": {
     "build": "npm-run-all grid reboot utils nucleus nucleus:min",
