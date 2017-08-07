@@ -1,4 +1,9 @@
-# Bootstrap Nucleus
+<section style="text-align: center; width: 100%; height: 150px;">
+  <img src="https://splode.github.io/store/bootstrap-nucleus.png">
+  <h1>Bootstrap Nucleus</h1>
+</section>
+
+<!-- # Bootstrap Nucleus -->
 > Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff. 
 
 Core includes:
