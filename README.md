@@ -2,12 +2,12 @@
   <a href="https://github.com/splode/bootstrap-nucleus">
     <img src="https://splode.github.io/store/bootstrap-nucleus.png" width=100px height=100px>
   </a>
-<p>
-  <h1 align="center">Bootstrap Nucleus</h1>
-</section>
+</p>
 
-<!-- # Bootstrap Nucleus -->
-> Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff. 
+<h1 align="center">Bootstrap Nucleus</h1>
+<p align="center">Bootstrap Nucleus - the essential core of Bootstrap v4.</p>
+
+Bootstrap Nucleus includes the essential core of Bootstrap v4 without the fluff.
 
 Core includes:
 - CSS Reboot
