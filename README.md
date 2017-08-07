@@ -45,3 +45,5 @@ npm run build
 
 ## Why Nucleus?
 The Bootstrap framework is an excellent tool for prototyping. In production, however, I find myself overwriting the majority of the Bootstrap component styles and retaining only the core framework components, such as the grid. Instead of including the entire Bootstrap framework for projects, Bootstrap Nucleus allows a project to retain the essential Bootstrap components while shedding the fluff.
+
+> At 52 KB, Bootstrap Nucleus is less than half the size of Bootstrap's CSS framework.
