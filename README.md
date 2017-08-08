@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/splode/bootstrap-nucleus">
-    <img src="https://splode.github.io/store/bootstrap-nucleus.png" width=100px height=100px>
+    <img src="bootstrap-nucleus.png" width=125px height=125px>
   </a>
 </p>
 
@@ -38,13 +38,18 @@ Use Bootstrap Nucleus the same way that you would use Bootstrap v4.
 </main>
 ````
 
-### Custom Build
-Bootstrap Nucleus uses node-sass to build project assets. 
+ ### Custom Build
+Use the following to rebuild project assets:
 ````bash
 npm run build
-````
+```` 
+
+Use the following to bundle and minify distribution files:
+```bash
+npm run dist
+```
 
 ## Why Nucleus?
-The Bootstrap framework is an excellent tool for prototyping. In production, however, I find myself overwriting the majority of the Bootstrap component styles and retaining only the core framework components, such as the grid. Instead of including the entire Bootstrap framework for projects, Bootstrap Nucleus allows a project to retain the essential Bootstrap components while shedding the fluff.
+The Bootstrap framework is an excellent tool for prototyping. In production, however, I find myself overwriting the majority of the Bootstrap component styles and retaining only the core framework components, such as the grid. 
 
-> At 52 KB, Bootstrap Nucleus is less than half the size of Bootstrap's CSS framework.
+Instead of including the entire Bootstrap framework for projects, Bootstrap Nucleus allows a project to retain the essential Bootstrap components while shedding the fluff. At 52 KB minified, Bootstrap Nucleus is less than half the size of Bootstrap's CSS framework.

@@ -4,15 +4,17 @@
   "description": "Bootstrap Nucleus - the essential core of Bootstrap v4.",
   "main": "index.js",
   "scripts": {
-    "build": "npm-run-all grid reboot utils nucleus nucleus:min",
+    "dist": "npm-run-all grid reboot utils nucleus nucleus:min",
+    "build": "npm-run-all grid reboot utils",
     "nucleus": "node-sass --output-style expanded --precision 6 scss/nucleus.scss dist/bootstrap-nucleus.css",
     "nucleus:min": "node-sass --output-style compressed --precision 6 scss/nucleus.scss dist/bootstrap-nucleus.min.css",
-    "grid": "node-sass --output-style expanded --precision 6 scss/grid.scss css/grid.css",
-    "reboot": "node-sass --output-style expanded --precision 6 scss/reboot.scss css/reboot.css",
-    "utils": "node-sass --output-style expanded --precision 6 scss/utils.scss css/utils.css"
+    "grid": "node-sass --output-style expanded --precision 6 scss/grid.scss build/grid.css",
+    "reboot": "node-sass --output-style expanded --precision 6 scss/reboot.scss build/reboot.css",
+    "utils": "node-sass --output-style expanded --precision 6 scss/utils.scss build/utils.css"
   },
   "keywords": [
     "Bootstrap",
+    "Bootsrap-grid",
     "CSS",
     "framework"
   ],
