@@ -12,6 +12,11 @@
 ````bash
 npm install bootstrap-nucleus --save
 ````
+
+````scss
+@import "/node_modules/bootstrap-nucleus/dist/boostrap-nucleus.css";
+````
+
 ### Download
 See [https://github.com/Splode/bootstrap-nucleus/blob/master/dist/bootstrap-nucleus.min.css](https://github.com/Splode/bootstrap-nucleus/blob/master/dist/bootstrap-nucleus.min.css)
 
@@ -38,7 +43,7 @@ Use Bootstrap Nucleus the same way that you would use Bootstrap v4.
 </main>
 ````
 
- ### Custom Build
+### Custom Build
 Use the following to rebuild project assets:
 ````bash
 npm run build
