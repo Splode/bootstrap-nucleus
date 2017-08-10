@@ -36,7 +36,7 @@ Use Bootstrap Nucleus the same way that you would use Bootstrap v4.
     <article class="col-md-8">
       ...
     </article>
-    <aside class="col-md-4">
+    <aside class="col-md-4 p-3">
       ...
     </aside>
   </section>
