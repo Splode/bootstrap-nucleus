@@ -6,7 +6,7 @@
 
 # Bootstrap Nucleus
 
-<p align="center">Bootstrap Nucleus - the essential core of Bootstrap v4.</p>
+> Bootstrap Nucleus - the essential core of Bootstrap v4.
 
 ## Installation
 
