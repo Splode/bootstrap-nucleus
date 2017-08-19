@@ -25,7 +25,7 @@
     "url": "https://github.com/Splode/bootstrap-nucleus.git"
   },
   "devDependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-beta",
     "node-sass": "^4.5.3",
     "npm-run-all": "^4.0.2"
   },
