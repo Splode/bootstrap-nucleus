@@ -2,7 +2,7 @@
 
 ## 1.1.0
 
-### New Features
+### Update to Bootstrap Beta from Alpha
 
 - :star: Updated Bootstrap from v4.0.0-alpha.6 to v4.0.0-beta
 - Build process now includes Bootstrap `_functions.scss`
