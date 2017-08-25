@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-nucleus",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Bootstrap Nucleus - the essential core of Bootstrap v4.",
   "main": "dist/bootstrap-nucleus.css",
   "style": "dist/bootstrap-nucleus.css",
