@@ -1,5 +1,11 @@
 # Bootstrap Nucleus Changelog
 
+## 1.2.1
+
+### Bootstrap Update v4.0.0-beta.2
+
+- Various Bootstrap updates, including reintroduction of `.offset` column modifiers.
+
 ## 1.2.0
 
 ### npm Namespacing
