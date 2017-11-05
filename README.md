@@ -12,17 +12,29 @@
 
 ### npm
 
-````bash
-npm install bootstrap-nucleus --save
-````
+```bash
+npm install bootstrap-nucleus
+```
 
-````scss
-@import "/node_modules/bootstrap-nucleus/dist/boostrap-nucleus.css";
-````
+```javascript
+require('bootstrap-nucleus')
+```
 
-### Download
+### Direct Download
 
 See [https://github.com/Splode/bootstrap-nucleus/blob/master/dist/bootstrap-nucleus.min.css](https://github.com/Splode/bootstrap-nucleus/blob/master/dist/bootstrap-nucleus.min.css)
+
+#### CSS
+
+```scss
+@import 'bootstrap-nucleus.min.css';
+```
+
+#### HTML
+
+```html
+<link href="bootstrap-nucleus.min.css" rel="stylesheet" type="text/css">
+```
 
 ## Usage
 
@@ -36,7 +48,7 @@ Core includes:
 
 Use Bootstrap Nucleus the same way that you would use Bootstrap v4.
 
-````html
+```html
 <main class="container">
   <section class="row d-flex">
     <article class="col-md-8">
@@ -47,15 +59,15 @@ Use Bootstrap Nucleus the same way that you would use Bootstrap v4.
     </aside>
   </section>
 </main>
-````
+```
 
 ### Custom Build
 
 Use the following to rebuild project assets:
 
-````bash
+```bash
 npm run build
-````
+```
 
 Use the following to bundle and minify distribution files:
 
@@ -67,4 +79,4 @@ npm run dist
 
 The Bootstrap framework is an excellent tool for prototyping. In production, however, I find myself overwriting the majority of the Bootstrap component styles and retaining only the core framework components, such as the grid.
 
-Instead of including the entire Bootstrap framework for projects, Bootstrap Nucleus allows a project to retain the essential Bootstrap components while shedding the fluff. At 52 KB minified, Bootstrap Nucleus is less than half the size of Bootstrap's CSS framework.
+Instead of including the entire Bootstrap framework for projects, Bootstrap Nucleus allows a project to retain the essential Bootstrap components while shedding the fluff. At 48 KB minified, Bootstrap Nucleus is less than half the size of Bootstrap's CSS framework.
