@@ -1,7 +1,8 @@
 dist: trusty
 language: node_js
 node:
-  - 'lts/*'
+  - 'node'
+  - '8'
 script: npm run build && npm run dist
 branches:
   only:
