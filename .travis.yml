@@ -1,7 +1,6 @@
 dist: trusty
 language: node_js
 node:
-  - 'node'
   - '8'
 script: npm run build && npm run dist
 branches:
