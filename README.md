@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/splode/bootstrap-nucleus">
-    <img src="bootstrap-nucleus.png" width=125px height=125px>
+    <img src="https://raw.githubusercontent.com/Splode/bootstrap-nucleus/master/bootstrap-nucleus.png" width=125px height=125px>
   </a>
 </p>
 
