@@ -1,5 +1,12 @@
 # Bootstrap Nucleus Changelog
 
+## 1.3.0
+
+### Bootstrap Update V4.2.1
+
+- Several Bootstrap updates, include utilities and grid updates.
+- Spacing is now included in Bootstrap grid.
+
 ## 1.2.1
 
 ### Bootstrap Update v4.0.0-beta.2
