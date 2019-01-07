@@ -1,6 +1,6 @@
 # Bootstrap Nucleus Changelog
 
-## 1.3.0
+## 1.5.0
 
 ### Bootstrap Update V4.2.1
 
